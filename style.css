@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body{
+    background-color: #93B1A6;
+}
+
+.main{
+    position: relative;
+    background-color:#183D3D ;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 3px solid #040D12;
+    border-radius: 10px;
+}
+
+.main1{
+    background-color: white;
+    position: relative;
+    height: 29%;
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    font-size: 60px;
+}
+.main1 p{
+    color: #183D3D;
+    position: relative;
+    top: -23%;
+    left: 26%;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#longurl{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#shorten{
+    background-color: #94d3bb;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    height: 31px;
+    width: 128px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'sans-serif';
+    font-weight: bold;
+}
+
+#shorturl{
+    position: relative;
+    top: 26%;
+    left: 10%;
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+#copy{
+    background-color: #94d3bb;
+    position: relative;
+    top: 26%;
+    left: 15%;
+    height: 31px;
+    width: 128px;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'sans-serif';
+    font-weight: bold;
+}
+
+#image{
+    position: relative;
+    top: 32%;
+    left: 10%;
+    
+}
+
+#shorten:hover{
+    background-color: white;
+}
+#copy:hover{
+    background-color: white;
+}
